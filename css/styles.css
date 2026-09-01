@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sintony:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #D2F4FF;
+    color: #240000;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+h2, li {
+    margin: 0.5rem;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: #240000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+.back {
+    text-align: left;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 0.75rem;
+}
