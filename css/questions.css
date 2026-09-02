@@ -1,0 +1,27 @@
+
+a {
+    color: #240000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+.back {
+    text-align: left;
+}
+
+h2, li {
+    margin: 0.5rem;
+    font-weight: lighter;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 0.75rem;
+}
+
